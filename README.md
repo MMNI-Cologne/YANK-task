@@ -1,19 +1,10 @@
 # Welcome to the Git Repo of the YANK Task!
+The **YANK task** is a grip-force-controlled obstacle-avoidance paradigm that contrasts rapid force production (**positive yank**) and rapid force reduction (**negative yank**) under comparable visuomotor demands, within a single event-related fMRI-compatible design. Grip force is continuously quantified on every trial, and wall positions can be adaptively personalised per participant so that task difficulty is matched across individuals and transition directions.
+
 
 ![Project logo](Images/Figure1.jpg)
 Figure demonstrating the main elements of the task. **A** A countdown indicates the start of the trial. **B** The avatar moves automatically from left to right. The vertical position is manually controlled by the subject by producing grip force. **C** Rapid force production (**positive yank**) is manipulated by making the left gap smaller. **D** Rapid force reduction (**negative yank**) is manipulated by making the right gap smaller. **E** Collision with any obstacles ends the trial immeadiately. **F** A failure screen is shown. **G** Collision with the goal (Pizza) successfully ends the trial. **H** The number of successfully collected Pizzas is shown.  
 
-## Task Description
-
-The **YANK task** is a grip-force-controlled obstacle-avoidance paradigm that contrasts rapid force production (**positive yank**) and rapid force reduction (**negative yank**) under comparable visuomotor demands, within a single event-related fMRI-compatible design. Grip force is continuously quantified on every trial, and wall positions can be adaptively personalised per participant so that task difficulty is matched across individuals and transition directions.
-
-## Features
-
-| Feature | Description |
-|---|---|
-| Feature One | Short explanation of what it does |
-| Feature Two | Short explanation of what it does |
-| Feature Three | Short explanation of what it does |
 
 ## Hardware and software
  
@@ -60,7 +51,7 @@ Robert Lubomierski, Verena Dzialas and Thilo van Eimeren conceived and developed
  
 ## License
  
-> _Add your chosen license here (e.g. MIT, GPL-3.0) and include a `LICENSE` file in the repository._
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
  
 ## Acknowledgements
  
