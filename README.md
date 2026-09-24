@@ -1,8 +1,7 @@
 # Welcome to the Git Repo of the YANK Task!
-This repo functions to on work and share the Yank Task.  
 
 ![Project logo](Images/Figure1.jpg)
-
+Figure demonstrating the main elements of the task. **A** A countdown indicates the start of the trial. **B** The avatar moves automatically from left to right. The vertical position is manually controlled by the subject by producing grip force. **C** Rapid force production (**positive yank**) is manipulated by making the left gap smaller. **D** Rapid force reduction (**negative yank**) is manipulated by making the right gap smaller. **E** Collision with any obstacles ends the trial immeadiately. **F** A failure screen is shown. **G** Collision with the goal (Pizza) successfully ends the trial. **H** The number of successfully collected Pizzas is shown.  
 
 ## Task Description
 
@@ -24,8 +23,8 @@ The **YANK task** is a grip-force-controlled obstacle-avoidance paradigm that co
 
 ## Installation
 
-In this directory there is a virtual environment (MRI_Env) so that all python packages are not globally installed. 
-    This virtual environment is not uploaded to Gitlab. Rather the requiered packages are stored in the requirements.txt file. If there are problems with library versions contact Robert Lubomierski for an updated list of installed libraries. 
+We highly recommend installing the required packages in a virtual environment (YANK_Env), so that the python packages are not globally installed. 
+    The requiered packages are stored in the requirements.txt file. If there are problems with library versions contact Robert Lubomierski for an updated list of installed libraries. 
 
 ```bash
 git clone https://github.com/<org>/<repo>.git
@@ -36,15 +35,15 @@ pip install -r requirements.txt
 
 ## Usage
 
-For starting the calibration:
+For starting the calibration on a Windows machine:
 ```bash
-call MRI_Env\Scripts\activate.bat
+call YANK_Env\Scripts\activate.bat
 python Calibration_Yank_Task.py
 ```
 
-For starting the MRI task:
+For starting the MRI task on a Windows machine:
 ```bash
-call MRI_Env\Scripts\activate.bat
+call YANK_Env\Scripts\activate.bat
 python MRI_Yank_Task.py
 ```
 
